@@ -17,7 +17,7 @@
         }
     </style>
 <div class="container">
-<h2 class="alert alert-dark text-center " style="color:red; text:bold"><span class="fab fa-laravel"> LARAVEL 6.0 ADVANCE CRUD APPLICATION WITH IMAGE UPLOAD</span></h2>
+<h2 class="alert alert-dark text-center " style="color:red; text:bold"><span class="fab fa-laravel"> EMPLOYEE</span></h2>
 <br>
 <h2 class="alert alert-success " > EDIT EMPLOYEE #{{$data->id}} <span class="fa fa-user" style="float:right"> {{$data->first_name}}  {{$data->last_name}}</span> </h2>
 </div>

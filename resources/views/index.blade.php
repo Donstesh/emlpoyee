@@ -7,8 +7,6 @@
         }
     </style>
 <div class="container">
-<h2 class="alert alert-dark text-center " style="color:red; text:bold"><span class="fab fa-laravel"> LARAVEL 6.0 ADVANCE CRUD APPLICATION WITH IMAGE UPLOAD</span></h2>
-
 @if($message = Session::get('Success'))
 <div class="alert alert-success">
 <p align="center">{{$message}}</p>
