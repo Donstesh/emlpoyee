@@ -21,6 +21,11 @@ class CreateEmployeesTable extends Migration
             $table->string('email')->unique();
             $table->string('phone');
             $table->string('image');
+            $table->string('desc');
+            $table->string('facebook');
+            $table->string('twitter');
+            $table->string('linkedin');
+            $table->string('github');
             $table->timestamps();
         });
     }
